@@ -1,0 +1,20 @@
+.section {
+    margin-bottom: 50px;
+
+    & > * ~ * {
+        margin-top: 70px;
+    }
+
+    &__title {
+        font-size: 2rem;
+        text-transform: capitalize;
+        text-align: center;
+        background: #0f2e51;
+        color: white;
+        text-transform: capitalize;
+        font-family: auto;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 100%;
+    }
+}

@@ -1,0 +1,35 @@
+.footer {
+    padding: 70px 0;
+    box-shadow: $box-shadow;
+    font-size: 1.1rem;
+    background: #0f2e51;
+
+    &__logo {
+        height: 38px;
+    }
+
+    &__about {
+        p {
+            margin-bottom: 2rem;
+            color: aliceblue;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        color: aliceblue;
+    }
+
+    &__content {
+        p {
+            margin-bottom: 1.25rem;
+            color: ivory;
+            a{
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
+    }
+}

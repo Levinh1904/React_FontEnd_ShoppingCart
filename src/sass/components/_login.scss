@@ -1,0 +1,15 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.signup{
+    color: #e9ecef;
+    text-decoration: none;
+    font-family: 'boxicons';
+}
+.ripple-surface{
+    background:black;
+}
